@@ -108,6 +108,20 @@
   - UplinkWeaponry
 
 - type: listing
+  id: UplinkArkalyseBundle
+  name: uplink-arkalyse-bundle-name
+  description: uplink-arkalyse-bundle-desc
+  icon: { sprite: Mally/arkalyseBook.rsi, state: icon }
+  productEntity: BoxArkalyse
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 5
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeaponry
+
+- type: listing
   id: UplinkDisposableTurret
   name: uplink-disposable-turret-name
   description: uplink-disposable-turret-desc
@@ -1283,6 +1297,34 @@
     Telecrystal: 3
   cost:
     Telecrystal: 5
+  categories:
+    - UplinkImplants
+
+- type: listing
+  id: UplinkAdrenalineImplanter
+  name: uplink-adrenaline-implanter-name
+  description: uplink-adrenaline-implanter-desc
+  icon: { sprite: Mally/ImplantsActions.rsi, state: adrenal }
+  productEntity: AdrenalImplanter
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8
+  categories:
+    - UplinkImplants
+
+- type: listing
+  id: UplinkReviveAutosurgeon
+  name: uplink-revive-implanter-name
+  description: uplink-revive-implanter-desc
+  icon: { sprite: Mally/Autosurgeon.rsi, state: iconBefore }
+  productEntity: AutosurgeonRevive
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8
   categories:
     - UplinkImplants
 
