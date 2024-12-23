@@ -1,8 +1,7 @@
 using Content.Shared.Inventory.Events;
-using Content.Server.Mally.Components;
-using Content.Server.Mally.Arkalyse.Components;
+using Content.Server.DeadSpace.Arkalyse.Components;
 
-namespace Content.Server.Mally;
+namespace Content.Server.DeadSpace.Arkalyse;
 
 public sealed partial class ArkalyseGlovesSystem : EntitySystem
 {

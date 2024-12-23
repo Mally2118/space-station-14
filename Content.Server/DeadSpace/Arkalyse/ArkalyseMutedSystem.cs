@@ -6,10 +6,10 @@ using System.Linq;
 using Content.Shared.Speech.Muting;
 using Robust.Shared.Timing;
 using Content.Server.Body.Components;
-using Content.Shared.Arkalyse;
-using Content.Server.Mally.Arkalyse.Components;
+using Content.Shared.DeadSpace.Arkalyse;
+using Content.Server.DeadSpace.Arkalyse.Components;
 
-namespace Content.Server.Mally.Arkalyse;
+namespace Content.Server.DeadSpace.Arkalyse;
 
 public sealed class ArkalyseMutedSystem : EntitySystem
 {

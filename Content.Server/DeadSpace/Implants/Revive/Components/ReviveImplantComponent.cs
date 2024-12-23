@@ -1,5 +1,6 @@
-namespace Content.Server.Mally.Implants.Revive;
 using Robust.Shared.Audio;
+
+namespace Content.Server.DeadSpace.Implants.Revive.Components;
 
 [RegisterComponent]
 public sealed partial class ReviveImplantComponent : Component

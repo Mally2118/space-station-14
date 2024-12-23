@@ -1,4 +1,4 @@
-using Content.Shared.Mally;
+using Content.Shared.DeadSpace.ReviveImplant;
 using Content.Shared.Interaction.Events;
 using Robust.Server.GameObjects;
 using Content.Shared.DoAfter;
@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Content.Shared.Mobs.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Audio;
-using System.Threading;
+using Content.Server.DeadSpace.Implants.Revive.Components;
 
-namespace Content.Server.Mally.Implants.Revive;
+namespace Content.Server.DeadSpace.Implants.Revive;
 
 public sealed partial class ReviveImplantSystem : EntitySystem
 {

@@ -4,12 +4,12 @@ using Content.Shared.Mobs;
 using Content.Shared.Weapons.Melee.Events;
 using System.Linq;
 using Content.Shared.Actions;
-using Content.Shared.Arkalyse;
-using Content.Server.Mally.Arkalyse.Components;
+using Content.Shared.DeadSpace.Arkalyse;
+using Content.Server.DeadSpace.Arkalyse.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Audio;
 
-namespace Content.Server.Mally.Arkalyse.Systems;
+namespace Content.Server.DeadSpace.Arkalyse;
 
 public sealed class ArkalyseStunSystem : EntitySystem
 {

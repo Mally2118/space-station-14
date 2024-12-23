@@ -1,20 +1,18 @@
 using Content.Shared.Actions;
-using Content.Server.Mally.Arkalyse.Components;
+using Content.Server.DeadSpace.Arkalyse.Components;
 using Content.Shared.Weapons.Melee.Events;
 using System.Linq;
 using Content.Shared.Damage;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Physics.Components;
 using System.Numerics;
-using Content.Shared.Arkalyse;
+using Content.Shared.DeadSpace.Arkalyse;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Audio;
-using Content.Shared.Damage.Components;
-using Content.Shared.Damage.Events;
 
-namespace Content.Server.Mally.Arkalyse;
+namespace Content.Server.DeadSpace.Arkalyse;
 
 public sealed class ArkalyseDamageSystem : EntitySystem
 {

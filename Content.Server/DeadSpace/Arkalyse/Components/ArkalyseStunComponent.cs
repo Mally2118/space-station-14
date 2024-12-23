@@ -2,7 +2,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Audio;
 
-namespace Content.Server.Mally.Arkalyse.Components;
+namespace Content.Server.DeadSpace.Arkalyse.Components;
 
 [RegisterComponent]
 public sealed partial class ArkalyseStunComponent : Component

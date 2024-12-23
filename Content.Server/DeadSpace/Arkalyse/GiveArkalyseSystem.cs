@@ -1,10 +1,10 @@
 using Content.Shared.Interaction.Events;
-using Content.Server.Mally.Arkalyse.Components;
+using Content.Server.DeadSpace.Arkalyse.Components;
 using Robust.Server.GameObjects;
 using Content.Shared.DoAfter;
-using Content.Shared.Arkalyse;
+using Content.Shared.DeadSpace.Arkalyse;
 
-namespace Content.Server.Mally;
+namespace Content.Server.DeadSpace.Arkalyse;
 
 public sealed class GiveArkalyseSystem : EntitySystem
 {

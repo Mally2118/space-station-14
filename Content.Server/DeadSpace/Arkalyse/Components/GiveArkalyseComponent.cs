@@ -1,4 +1,4 @@
-namespace Content.Server.Mally;
+namespace Content.Server.DeadSpace.Arkalyse.Components;
 
 [RegisterComponent]
 public sealed partial class GiveArkalyseComponent : Component
