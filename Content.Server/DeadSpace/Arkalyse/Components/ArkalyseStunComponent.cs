@@ -21,5 +21,5 @@ public sealed partial class ArkalyseStunComponent : Component
 
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField, AutoNetworkedField]
-    public SoundSpecifier HitSound = new SoundPathSpecifier("/Audio/Mally/sound_effects_hit_punch.ogg");
+    public SoundSpecifier HitSound = new SoundPathSpecifier("/Audio/DeadSpace/Arkalyse/sound_effects_hit_punch.ogg");
 }

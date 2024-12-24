@@ -1,20 +1,4 @@
 - type: entity
-  id: ActionActivateAdrenalImplant
-  name: using implant
-  description: Increases your heart rate, speed and all the side effects, do not use all the charges at once.
-  components:
-  - type: InstantAction
-    charges: 3
-    itemIconStyle: BigAction
-    priority: -20
-    icon:
-      sprite: Mally/ImplantsActions.rsi
-      state: adrenal
-    event: !type:UseAdrenalImplantEvent
-    useDelay: 3
-    checkCanInteract: false
-
-- type: entity
   parent: BaseSubdermalImplant
   id: AdrenalImplant
   name: adrenal implant
@@ -39,7 +23,7 @@
   description: A multi-use auto surgeon for implanting whatever you want into yourself. Rip that station apart and make it part of your.
   components:
     - type: Sprite
-      sprite: Mally/Autosurgeon.rsi
+      sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
       layers:
       - state: iconBefore
     - type: ReviveImplant
@@ -51,6 +35,6 @@
   description: A multi-use auto surgeon for implanting whatever you want into yourself. Rip that station apart and make it part of your.
   components:
     - type: Sprite
-      sprite: Mally/Autosurgeon.rsi
+      sprite: DeadSpace/Objects/Specific/Autosurgeon/autosurgeon.rsi
       layers:
       - state: iconAfter

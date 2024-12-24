@@ -11,18 +11,27 @@
       - id: Flash
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHandsGlovesCombat
-      - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
+      # - id: ClothingShoesBootsJack # DS14-disabled
+      # - id: ClothingOuterCoatWarden # DS14-disabled
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
       - id: DoorRemoteArmory
       - id: ClothingOuterHardsuitWarden
       - id: HoloprojectorSecurity
-      - id: BookSpaceLaw
+      # - id: BookSpaceLaw # DS14-disabled
+      - id: ClothingHeadHatCapWardenAlt # Corvax-SecFashion
+      - id: ClothingOuterCoatWardenAlt # Corvax-SecFashion
       - id: ClothingBackpackElectropack
         amount: 2
       - id: RemoteSignaller
         amount: 2
+      - id: ClothingNeckBodyCamera # DS14
+        amount: 4
+      - id: EftposSecurity # backmen-economy
+        amount: 2
+      - id: Eftpos # backmen-economy
+        amount: 2
+      - id: ClothingHandsGlovesArkalyse # DS14-added
 
 - type: entity
   id: LockerWardenFilled
@@ -37,8 +46,8 @@
       - id: Flash
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHandsGlovesCombat
-      - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
+      # - id: ClothingShoesBootsJack # DS14-disabled
+      # - id: ClothingOuterCoatWarden # DS14-disabled
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
       - id: DoorRemoteArmory
@@ -48,6 +57,13 @@
         amount: 2
       - id: RemoteSignaller
         amount: 2
+      - id: ClothingNeckBodyCamera # DS14
+        amount: 4
+      - id: EftposSecurity # backmen-economy
+        amount: 2
+      - id: Eftpos # backmen-economy
+        amount: 2
+      - id: ClothingHandsGlovesArkalyse # DS14-added
 
 - type: entity
   id: LockerSecurityFilled

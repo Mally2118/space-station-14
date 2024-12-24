@@ -38,5 +38,5 @@ public sealed partial class ArkalyseDamageComponent : Component
 
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField, AutoNetworkedField]
-    public SoundSpecifier HitSound = new SoundPathSpecifier("/Audio/Mally/sound_effects_hit_kick.ogg");
+    public SoundSpecifier HitSound = new SoundPathSpecifier("/Audio/DeadSpace/Arkalyse/sound_effects_hit_kick.ogg");
 }

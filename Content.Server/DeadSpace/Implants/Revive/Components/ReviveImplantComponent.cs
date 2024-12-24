@@ -10,5 +10,5 @@ public sealed partial class ReviveImplantComponent : Component
 
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField, AutoNetworkedField]
-    public SoundSpecifier ImplantedSound = new SoundPathSpecifier("/Audio/Mally/sound_weapons_circsawhit.ogg");
+    public SoundSpecifier ImplantedSound = new SoundPathSpecifier("/Audio/DeadSpace/Autosurgeon/sound_weapons_circsawhit.ogg");
 }
