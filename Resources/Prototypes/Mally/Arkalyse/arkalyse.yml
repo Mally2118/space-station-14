@@ -1,0 +1,96 @@
+- type: entity
+  id: ActionDamageArkalyseAttack
+  name: painful blow to the stomach
+  description: A lightning palm strike to the opponent's stomach, deals pure damage.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Mally/arkalyseActions.rsi
+      state: punch
+    event: !type:DamageAtackArkalyseActionEvent {}
+    useDelay: 3
+
+- type: entity
+  id: ActionMutedArkalyseAttack
+  name: blow to the throat
+  description: A blow to the throat, blocking the airway.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Mally/arkalyseActions.rsi
+      state: mute
+    event: !type:MutedAtackArkalyseActionEvent {}
+    useDelay: 3 
+
+- type: entity
+  id: ActionStunArkalyseAttack
+  name: blow overhead
+  description: A hybrid blow to the opponent's head, knocking him off his feet.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Mally/arkalyseActions.rsi
+      state: kick
+    event: !type:StunedAtackArkalyseActionEvent {}
+    useDelay: 3
+
+- type: entity
+  parent: ClothingHandsButcherable
+  id: ClothingHandsGlovesArkalyse
+  name: gloves "Arkalis"
+  description: Gloves signed with nanomachine ones that enhance the blows of the wearer.
+  components:
+  - type: ArkalyseGloves
+  - type: Sprite
+    sprite: Mally/hands/gloves/gloves_arkalis.rsi
+  - type: Clothing
+    sprite: Mally/hands/gloves/gloves_arkalis.rsi
+  - type: Fiber
+    fiberMaterial: fibers-nanomachines
+
+- type: entity
+  parent: BaseItem
+  id: BookArkalyse
+  name: manual "Arkalis"
+  description: A one-time guide that teaches the true art of "Arkalis".
+  components:
+    - type: Sprite
+      sprite: Mally/arkalyseBook.rsi
+      layers:
+      - state: icon
+    - type: GiveArkalyse
+
+- type: entity
+  parent: Paper # PaperPrintedSyndicate
+  id: ArkalyseInfo
+  name: Martial Arts for dummies
+  description: It was glued to the back cover of the book.
+  components:
+  - type: Paper
+    content: paper-text-arkalyse-manual
+    stampedBy:
+    - stampedColor: '#F00010'
+      stampedName: Синдикат
+    stampState: paper_stamp-syndicate
+
+- type: entity
+  name: arkalyse box
+  parent: BoxCardboard
+  id: BoxArkalyse
+  description: A box containing a manual.
+  components:
+  - type: StorageFill
+    contents:
+      - id: BookArkalyse
+      - id: ArkalyseInfo
+      - id: ClothingHeadBandBlack
+      - id: ClothingEyesEyepatch
+      - id: FlippoLighter # FlippoSyndicateLighter
+      - id: CigarGold
+  - type: Sprite
+    layers:
+      - state: box_of_doom_big
+      - state: writing_of_doom
